@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, form input, 
+form textarea, 
+form button, footer {
+    font-family: 'Inter', sans-serif;
+}
+header h1, section .container {
+    font-family: 'Orbitron', sans-serif;
+}
+
+header h1 {
+    font-weight: bold;
+}
+.container, .main-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-container {
+    box-shadow: 0px 4px 10px black;
+}
+
+header {
+    background-color: rgb(12, 68, 70);
+    padding: 12px;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 0px 10px black;
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.videos {
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(./images/BACKGROUND\ MIRAGE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .site-logo{
+    width: 180px;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+section ul{
+    list-style: none;
+}
+
+section .container {
+    background-color:rgba(28, 91, 94, 0.719);
+    padding: 16px 16px;
+}
+
+.thumbnail {
+    width: 90%;
+    transition: transform .3s;
+}
+
+.thumbnail:hover {
+    transform: translateY(-6px);
+    box-shadow: 4px 4px 10px black;
+}
+.social-media-logo:hover {
+    transform: translateY(-6px);
+}
+
+.contacts textarea {
+    resize: none;
+    height: 300px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 400px;
+    padding: 4px;
+    margin-bottom: 2px;
+}
+
+div.forms-witdh {
+    width: 640px;
+}
+
+.forms-width h2, .forms-width p{
+    margin-bottom: 10px;
+}
+
+.social-media-logo {
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: transform .4s;
+}
+
+.social-medias h2{
+    display: flex;
+    justify-content: center;
+}
+
+footer .container{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+
